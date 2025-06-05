@@ -27,13 +27,13 @@
     <distributionManagement>
         <repository>
             <id>nexus</id>
-            <name>Nexus Releases</name>
-            <url>http://<your-nexus-host>:8085/repository/maven-releases/</url>
+            <name>maven-releases</name>
+            <url>http://localhost:8085/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>Nexus Snapshots</name>
-            <url>http://<your-nexus-host>:8085/repository/maven-snapshots/</url>
+            <url>http://localhost:8085/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
