@@ -26,7 +26,7 @@
     <!-- ✅ Nexus Repository Configuration -->
     <distributionManagement>
         <repository>
-            <id>maven-releases</id>
+            <id>nexus</id>
             <name>maven-releases</name>
             <url>http://localhost:8085/repository/maven-releases/</url>
         </repository>
